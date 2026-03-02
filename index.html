@@ -1,77 +1,60 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primera Web</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-        }
-        
-        header {
-            background-color: #2c3e50;
-            color: white;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        
-        header h1 {
-            margin: 0;
-        }
-        
-        main {
-            max-width: 1200px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-        }
-        
-        section {
-            margin: 2rem 0;
-        }
-        
-        h2 {
-            color: #2c3e50;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 0.5rem;
-        }
-        
-        footer {
-            background-color: #2c3e50;
-            color: white;
-            text-align: center;
-            padding: 1rem 0;
-            margin-top: 2rem;
-        }
-    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/style.css">
 </head>
+
 <body>
-    <header>
-        <h1>¡Bienvenido a Mi Primera Web!</h1>
-    </header>
-    
-    <main>
-        <section>
-            <h2>Acerca de</h2>
-            <p>Esta es mi primera página web. Aquí puedes encontrar información sobre mí y mis proyectos.</p>
-        </section>
-        
-        <section>
-            <h2>Contenido</h2>
-            <p>La página está en desarrollo. Pronto habrá más contenido.</p>
-        </section>
-    </main>
-    
-    <footer>
-        <p>&copy; 2026 Mi Primera Web. Todos los derechos reservados.</p>
-    </footer>
+    <nav>
+        <ul>
+            <li><a href="ia.html">Inteligencia Artificial</a></li>
+            <li><a href="rrss.html">Redes Sociales</a></li>
+            <li><a href="videojuegos.html">Videojuegos</a></li>
+            <li><a href="internet.html">Internet</a></li>
+            <li><a href="ciberseguridad.html">Ciberseguridad</a></li>
+        </ul>
+    </nav>
+
+    <aside>
+        <h3>Contenido relacionado</h3>
+        <ul>
+            <li><a href="#ia">IA</a></li>
+            <li><a href="#rs">Redes Sociales</a></li>
+            <li><a href="#vi">Videojuegos</a></li>
+            <li><a href="#in">Internet</a></li>
+            <li><a href="#ci">Ciberseguridad</a></li>
+        </ul>
+    </aside>
+
+    <section id="indice">
+        <div class="indice_item" id="ia"><img src="assets/img/ia.jpg" alt="IA" width="25%">
+            <h2>Inteligencia Artificial</h2>
+            <p>Rama de la informática que busca crear sistemas capaces de aprender y tomar decisiones.</p>
+        </div>
+        <div class="indice_item" id="rs"><img src="assets/img/rs.webp" alt="RRSS" width="25%" height="25%">
+            <h2>Redes Sociales</h2>
+            <p>Plataformas digitales que permiten la comunicación y el intercambio de contenido entre personas.</p>
+        </div>
+        <div class="indice_item" id="vi"><img src="assets/img/vi.jpg" alt="videojuegos" width="25%">
+            <h2>Videojuegos</h2>
+            <p>Forma de entretenimiento digital que combina interacción, gráficos y narrativa.</p>
+        </div>
+        <div class="indice_item" id="in"><img src="assets/img/in.jpg" alt="Internet" width="25%">
+            <h2>Internet</h2>
+            <p>Red global que conecta millones de dispositivos para compartir información.</p>
+        </div>
+        <div class="indice_item" id="ci"><img src="assets/img/ci.jpg" alt="Ciberseguridad" width="25%">
+            <h2>Ciberseguridad</h2>
+            <p>Conjunto de prácticas destinadas a proteger sistemas y datos digitales.</p>
+        </div>
+        <footer>
+            <p>Desarrollado por Raúl Blanco Sastre</p>
+        </footer>
+
 </body>
+
 </html>
